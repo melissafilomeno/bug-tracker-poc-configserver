@@ -1,0 +1,208 @@
+{
+	"info": {
+		"_postman_id": "3dfec094-aa69-4ffa-89e1-deeabc87f5a0",
+		"name": "Bug Tracker POC Configserver",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39820280"
+	},
+	"item": [
+		{
+			"name": "bugtracker1 - default",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{config_server_base_url}}/bugtracker1/default/main",
+					"host": [
+						"{{config_server_base_url}}"
+					],
+					"path": [
+						"bugtracker1",
+						"default",
+						"main"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bugtracker1 - dev",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{config_server_base_url}}/bugtracker1/dev/main",
+					"host": [
+						"{{config_server_base_url}}"
+					],
+					"path": [
+						"bugtracker1",
+						"dev",
+						"main"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bugtracker2 - default",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{config_server_base_url}}/bugtracker2/default/main",
+					"host": [
+						"{{config_server_base_url}}"
+					],
+					"path": [
+						"bugtracker2",
+						"default",
+						"main"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bugtracker2 - dev",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{config_server_base_url}}/bugtracker2/dev/main",
+					"host": [
+						"{{config_server_base_url}}"
+					],
+					"path": [
+						"bugtracker2",
+						"dev",
+						"main"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bugtracker1 - default (perf)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{config_server_base_url}}/bugtracker1/perf/main",
+					"host": [
+						"{{config_server_base_url}}"
+					],
+					"path": [
+						"bugtracker1",
+						"perf",
+						"main"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bugtracker3 - default (perf)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{config_server_base_url}}/bugtracker3/perf/main",
+					"host": [
+						"{{config_server_base_url}}"
+					],
+					"path": [
+						"bugtracker3",
+						"perf",
+						"main"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

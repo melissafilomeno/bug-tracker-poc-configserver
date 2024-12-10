@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "acac16d0-4cdc-49e1-94f9-9be35fea7193",
+		"name": "Bug Tracker POC Configserver - Management",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39820280"
+	},
+	"item": [
+		{
+			"name": "Encrypt credentials",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{config_server_base_url}}/encrypt",
+					"host": [
+						"{{config_server_base_url}}"
+					],
+					"path": [
+						"encrypt"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

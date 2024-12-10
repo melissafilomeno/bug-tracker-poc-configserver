@@ -24,4 +24,4 @@ Run :
 
 
 Verification :
-* Import environment and postman_collection under postman/, select 'local' environment, set 'current value' from 'initial value', run the collection and verify
+* Import environment and postman_collection (not management) under postman/, select 'local' environment, set 'current value' from 'initial value', run the collection and verify

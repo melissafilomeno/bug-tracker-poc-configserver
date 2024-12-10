@@ -11,6 +11,12 @@ Pre-requisites :
 * Maven 3.9.8
 * Postman 11.19.0
 
+Setup :
+* Create .env file with the following :
+  - ENCRYPT_KEY
+  - CLOUD_CONFIG_USER
+  - CLOUD_CONFIG_PASS
+* Setup config (bug-tracker-poc-config)
 
 Run :
 * Run `mvn clean install`

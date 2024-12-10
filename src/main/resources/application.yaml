@@ -4,7 +4,7 @@ encrypt:
   key: ${ENCRYPT_KEY}
 spring:
   config:
-    import: optional:file:.env[.properties]
+    import: optional:file:.env[.properties]   # required to read properties from .env file
   security:
     user:
       name: ${CLOUD_CONFIG_USER}

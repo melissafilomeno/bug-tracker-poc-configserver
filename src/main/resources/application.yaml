@@ -1,9 +1,19 @@
 server:
-  port: 9091
+  port: 8888
+encrypt:
+  key: ${ENCRYPT_KEY}
 spring:
+  config:
+    import: optional:file:.env[.properties]
+  security:
+    user:
+      name: ${CLOUD_CONFIG_USER}
+      password: ${CLOUD_CONFIG_PASS}
   cloud:
     config:
       server:
+        encrypt:
+          enabled: false
         git:
           uri: https://github.com/melissafilomeno/bug-tracker-poc-config
           search-paths:

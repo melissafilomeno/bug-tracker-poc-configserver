@@ -12,11 +12,13 @@ Pre-requisites :
 * Postman 11.19.0
 
 Setup :
+* Clone config repos (bug-tracker-poc-config and bug-tracker-poc-config-perf)
 * Create .env file with the following :
   - ENCRYPT_KEY
   - CLOUD_CONFIG_USER
   - CLOUD_CONFIG_PASS
-* Setup config (bug-tracker-poc-config)
+  - USER_NAME (your github username)
+* Setup config repos (bug-tracker-poc-config and bug-tracker-poc-config-perf)
 
 Run :
 * Run `mvn clean install`

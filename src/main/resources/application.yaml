@@ -15,12 +15,12 @@ spring:
         encrypt:
           enabled: false
         git:
-          uri: ${GIT_URL}
+          uri: https://github.com/melissafilomeno/bug-tracker-poc-config
           search-paths:
             - tracker*
           repos:
             perf:
               pattern: '*/perf'
-              uri: ${PERF_GIT_URL}
+              uri: https://github.com/melissafilomeno/bug-tracker-poc-config-perf
               search-paths:
                 - tracker*
